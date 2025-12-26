@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --bg-gradient: radial-gradient(1200px 600px at 10% 10%, #1a1f2b 0%, #0b0f17 40%, #090d14 80%);
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg-gradient);
+}
+
+
+.glass {
+  background-color: rgba(255, 255, 255, 0.12);
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  border-radius: 1rem; 
+
+  padding: 1.25rem; 
+}
